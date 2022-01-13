@@ -1,3 +1,4 @@
+
 const quizQuestions = [
   {
     id: 1,
@@ -31,7 +32,7 @@ const quizQuestions = [
   {
     id: 4,
     question:
-      'In what year and month did Congo their gain independence from Belgium?',
+      'In what year and month did Congo gain their independence from Belgium?',
     options: ['June, 1690s', 'July, 1960s', 'June, 1960s', 'June, 1930s'],
     correctAnswer: 2,
   },

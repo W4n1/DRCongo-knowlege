@@ -20,6 +20,14 @@ main {
   height: 100%;
 }
 
+header p {
+  font-size: 22px;
+  background-color: rgb(9 30 66 / 30%);
+  width: 962px;
+  color: #e6ecf0;
+  text-shadow: 1px 1px black;
+}
+
 h1 {
   text-align: center;
   font-size: 1.9rem;
@@ -28,16 +36,17 @@ h1 {
 }
 
 button {
-  background-color: white;
+  background-color: rgb(119 131 17);
+  color: #fff;
   cursor: pointer;
   width: 250px;
   min-height: 40px;
   font-family: Raleway, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: rgb(49, 180, 73);
   margin: 1em;
   vertical-align: middle;
+  border-radius: 20px;
 }
 
 button:focus {
@@ -59,10 +68,12 @@ section#quiz-area {
 }
 
 p#question-text {
-  font-size: 1.5em;
+  font-size: 2em;
   padding: 0.5em 0;
   margin: 0 auto;
   max-width: 400px;
+  color: #1c2058;
+  text-shadow: 2px 0 rgb(119 131 17);
 }
 
 div.question-options {
@@ -82,7 +93,7 @@ ol {
 
 ol li button {
   font-size: 1.2em;
-  padding: 1em;
+    padding: 1em;
 }
 
 p#finish {
