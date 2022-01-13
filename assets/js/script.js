@@ -77,7 +77,7 @@ function restartQuiz() {
 function nextQuestion() {
   const currentQuestion = quizQuestions[currentIndex];
 
-  if (currentIndex === quizQuestions.length - 1) {
+  if (currentIndex === quizQuestions.length) {
     finishQuiz();
   } else {
     document.getElementById('question-text').innerHTML =
@@ -92,7 +92,7 @@ function nextQuestion() {
 }
 
 function clickOption(selectedOption) {
-  const currentQuestion = quizQuestions[currentIndex];
+  const currentQuestion = quizQuestions[currentIndex-1];
   if (currentQuestion.correctAnswer === selectedOption) {
     setScore(score + 1);
   }
